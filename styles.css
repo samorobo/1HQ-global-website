@@ -273,10 +273,11 @@ body{
     padding: 20px;
     /* border: 1px solid red; */
     aspect-ratio: 2 / 1;
+    width: 10000px;
 
 
     grid-template-areas: 
-    'card-01 card-02 card-02 card-03 card-04'
+    /* 'card-01 card-02 card-02 card-03 card-04'
     '.       card-02 card-02  .       .    '
     '.       . .    .    .     '
     'card-05 .       .          .    .     '
@@ -289,9 +290,9 @@ body{
     '.       card-12 card-12 card-13  .    '
     /* '.       .       .       .        .    '
     '.       .       .       .        .    ' */
-    '.       .        .      .        card-16'
+    /* '.       .        .      .        card-16'
     'card-15 card-15 .        .        .   '
-    'card-15 card-15 card-17  card-18        .    '
+    'card-15 card-15 card-17  card-18  .    '
     'card-15 card-15 .         .       card-19  '
     '.       .       card-20   card-21 card-19'
     'card-22 .       .         .       .     '
@@ -301,16 +302,27 @@ body{
     'card-26 .         .       card-27 card-30'
     '.        .         .      .       .      '
     '.         card-28   .      .      .      '
-    'card-31   card-28        card-29 .      . '
-    '.          .       card-29  card-39  card-32'
+    'card-31   card-28  card-29 card-29      . '
+    '.         .       card-29  card-29  card-32'
     '.       .       .       .            card-32 '
     'card-33     card-40        .        .      .      '
     '.       .           .       .        .          '
     '.          card-34  card-34   card-36 card-35'
-    '.          card-34   card-34  .       .      '
-    'card-37    .         .         .      .      ';
-    width: 10000px;
+    '.          card-34  card-34  .       .      '
+    'card-37    .        .        .       .       '; */
+
+
+
+    'card-01 card-02 card-02 card-02 card-03 card-04'
+    '.       card-02 card-02 card-02 .       .      '
+    'card-05 .       .       .       .       .      '
+    '.       card-07 card-07 card-07  card-06 card-07'
+    'card-08 card-07 card-07 card-07  card-06 card-06'
+    '.       card-07 card-07 card-07  .       .      '
+     'card-09 card-07 card-07 card-07  card-10 card-11';
 }
+
+
 
 .card{
     /* background-color: #f1f1f1; */
@@ -319,7 +331,7 @@ body{
     padding: 10px;
     /* display: flex;
     flex-wrap: wrap; */
-    /* border:1px solid red; */
+    border:1px solid red;
 }
 
 .card h5{
@@ -412,7 +424,7 @@ body{
     margin-bottom: -25px;
 }
 
-.card-12{
+/* .card-12{
     grid-area: card-12;
     /* margin-top: -70px;
     margin-bottom: 40px; */
@@ -576,7 +588,7 @@ body{
 .card-34 .card-img{
     width: 600px;
     height: 400px;
-    aspect-ratio: auto 16 / 9;
+    laspect-ratio: auto 16 / 9;
 }
 
 .card-35{
@@ -590,8 +602,8 @@ body{
 }
 
 .card-36{
-    grid-area: card-36;
-    margin-top: -100px;
+    grid-area: card-pp;
+    /* margin-top: -100px; */
 }
 
 .card-37{
@@ -607,7 +619,7 @@ body{
     margin-top: -100px;
     margin-bottom: 180px;
 }
-
+ */
 
 
 .card-bottom{
@@ -727,10 +739,8 @@ footer {
     text-align: center;
     margin-top: 20px;
   }
-  
-  
-  
-  
-  
-  
+
+
+
+
   
